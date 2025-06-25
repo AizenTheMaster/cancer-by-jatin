@@ -18,7 +18,7 @@ treatment_classes = label_encoders['treatment_type'].classes_
 # 🖼️ Page Setup
 st.set_page_config(page_title="🫁 Lung Cancer Predictor", layout="centered")
 st.markdown("<h1 style='text-align:center;'>🫁 Lung Cancer Survival Predictor</h1>", unsafe_allow_html=True)
-st.markdown("<h4 style='text-align:center; color:gray;'>Built with ❤️ by Himanshu</h4>", unsafe_allow_html=True)
+st.markdown("<h4 style='text-align:center; color:gray;'>Built with ❤️ by Jatin</h4>", unsafe_allow_html=True)
 st.markdown("---")
 
 # 🧾 Input Fields (Vertical Layout)
