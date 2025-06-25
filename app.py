@@ -5,7 +5,7 @@ import numpy as np
 import pickle
 
 # 🔄 Load model + encoders
-with open("C:/Users/himan/.spyder-py3/code/lung cancer/lung_cancer_model_full.sav", "rb") as file:
+with open("lung_cancer_model_full.sav", "rb") as file:
     model_data = pickle.load(file)
 
 model = model_data["model"]
@@ -19,7 +19,7 @@ treatment_classes = label_encoders['treatment_type'].classes_
 
 # 🖼️ Page setup
 st.set_page_config(page_title="Lung Cancer Survival Predictor", layout="centered")
-st.title("💉 Lung Cancer Survival Predictor - Made by Himanshu")
+st.title("💉 Lung Cancer Survival Predictor - Made by Jatin")
 st.markdown("Enter patient information to predict the likelihood of survival.")
 
 # 👉 Input Fields
